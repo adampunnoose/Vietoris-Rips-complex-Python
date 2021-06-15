@@ -2,7 +2,7 @@
 Vietoris-Rips complex algorithm coded in the Python language
 
 # Vietrois-Rips complex description 
-  The Vietoris-Rips complex is an abstract simplicial complex used in topological studies to help better characterize large datasets. This description will explain the basics of this concept. The user inputs a dataset (X) and a radius value (R). 
+  The Vietoris-Rips complex ( V(X,R) ) is an abstract simplicial complex used in topological studies to help better characterize large datasets. This description will explain the basics of this concept. The user inputs a dataset (X) and a radius value (R). 
 
   A simplicial complex is a collection of points and simplexes in space. A simplex is a connection of points and faces. A single point is considered a 0-simplex, 2 points connected by a line is a 1-simplex, and collection of 3 points and the face that fills in that space is considered a 2-simplex and a collection of 5 points and the tetrahedral associated made by those points is a 3-simplex. For the purposes of this program, we will only be looking at the 0 to 3 simplicial complexes made by given datasets.
 
